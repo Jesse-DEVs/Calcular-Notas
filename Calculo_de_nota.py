@@ -12,9 +12,9 @@ def calcular ():
     print('Bem vindo ao sistema de calculo de notas')
     nome = input('Digite seu nome completo: ')
     
-    materia = ['Matemática', 'Português', 'Inglês', 'História']
+    materias = ['Matemática', 'Português', 'Inglês', 'História']
     notas = [] 
-    for materia in materia:
+    for materia in materias:
         notas.append(obter_nota(materia))
     media = sum(notas) / len(notas)
     
